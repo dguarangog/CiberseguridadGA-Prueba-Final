@@ -3,7 +3,6 @@ from pymongo.server_api import ServerApi
 from dotenv import load_dotenv
 import os
 from datetime import datetime
-
 load_dotenv()
 
 
@@ -31,7 +30,6 @@ class MongoDriver:
             print("Pinged your deployment. You successfully connected to MongoDB!")
         except Exception as e:
             print(e)
-
 
 if __name__ == "__main__":
     mi_base_de_datos = MongoDriver()

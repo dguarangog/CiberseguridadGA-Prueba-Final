@@ -29,9 +29,7 @@ def get_stock_price():
             "PRECIO": last_price,
             "FECHAREGI": datetime.now()
             }
-
     mongodb.insert_record(record=response_raw, username="REGISTROS")
-
     return Response(json.dumps(response_raw), mimetype='application/json')
 
 
