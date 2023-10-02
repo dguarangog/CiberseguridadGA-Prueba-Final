@@ -25,10 +25,10 @@ El objetivo de la prueba final, es aplicar los conocimientos recibidos en la mat
 
 **DESCRIPCIÓN DE LA SOLUCIÓN**
 
-- Crear y configurar una base de datos Mongo DB
+- Crear y configurar una base de datos Mongo DB.
 - Utilizar librerías flask, pymongo, Python y requests.
 - Utilizar un servicio web.
-- Realizar el proceso de extracción de información
+- Realizar el proceso de extracción de información.
 - Realizar el proceso de almacenamiento en la Base de datos Mongo DB.
 - Guardar los cambios de la solución del servicio web en un repositorio GitHub.
 
